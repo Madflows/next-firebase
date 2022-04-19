@@ -8,7 +8,7 @@ const Custom404 = () => {
         src="https://giphy.com/embed/14uQ3cOFteDaU"
         width="480"
         height="362"
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
       ></iframe>
       <Link href="/">

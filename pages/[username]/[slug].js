@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export async function getStaticProps() {
+export async function getStaticPaths() {
   // improve my using Admin SDK to select empty documents
   const snapshot = await firestore.collectionGroup("posts").get();
 

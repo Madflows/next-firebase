@@ -40,7 +40,7 @@ function PostManager() {
           <section>
             <h1>{post.title}</h1>
             <p>ID: {post.slug}</p>
-            <p class="font-sofia">A minimum of 30 words is required!</p>
+            <p className="font-sofia">A minimum of 30 words is required!</p>
 
             <PostForm
               postRef={postRef}
@@ -107,7 +107,7 @@ function PostForm({ defaultValues, postRef, preview }) {
 
         {errors.content && (
           <p className="text-danger">
-            <span class="error-icon">
+            <span className="error-icon">
               !
             </span>
             {errors.content.message}
