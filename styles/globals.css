@@ -18,6 +18,7 @@ body {
   margin-top: 50px;
 }
 
+
 .error-icon{
   color: --color-bg;
   background: --color-red;
@@ -126,11 +127,14 @@ button {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Sofia Pro", sans-serif;
   font-weight: bold;
   border-radius: 0.25rem;
   cursor: pointer;
   margin: 0.5rem 1rem 0.5rem 0;
+  width: fit-content;
+  gap: .5em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -168,11 +172,6 @@ button.btn-green {
 button.btn-google {
   background-color: white;
   color: var(--color-text);
-}
-
-.btn-google img {
-  width: 30px;
-  margin-right: 10px;
 }
 
 button.btn-logo {
@@ -304,4 +303,18 @@ input[type="file"] {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.bg-blue{
+  background: #08090a;
+  color: #fff;
+}
+
+.info-card .title{
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.info-card p{
+  font-family: 'Sofia Pro';
 }

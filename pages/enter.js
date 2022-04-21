@@ -34,7 +34,14 @@ function SignInButton() {
   };
   return (
     <button className="btn-google" onClick={signInWithGoogle}>
-      <Image src={"/google.png"} alt="" /> Sign in with Google
+      <Image
+        className="btn-image"
+        width="30px"
+        height="30px"
+        src={"/google.png"}
+        alt="Google"
+      />
+      <span style={{ marginRight: "10" }}>Sign in with Google</span>
     </button>
   );
 }

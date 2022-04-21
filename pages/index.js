@@ -53,6 +53,7 @@ export default function Home(props) {
 
   return (
     <main>
+      <InfoPost />
       <PostFeed posts={posts} />
       {!postsEnd && !loading && (
         <button onClick={loadMore}>Load more</button>
@@ -61,4 +62,13 @@ export default function Home(props) {
       {postsEnd && <p>No more posts to load</p>}
     </main>
   );
+}
+
+function InfoPost() {
+  return(
+    <div className="card bg-blue info-card">
+      <h1 className="title">Welcome to DevChat</h1>
+      <p>Made with NextJS and Firebase</p>
+    </div>
+  )
 }
