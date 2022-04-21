@@ -1,4 +1,4 @@
-import { firestore, auth, increment } from "@lib/firebase";
+import { firestore, auth, increment } from "../lib/firebase";
 import { useDocument } from "react-firebase-hooks/firestore";
 
 // TODO: replace heart emojis with BoxIcons
