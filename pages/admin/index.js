@@ -74,11 +74,11 @@ function CreateNewPost() {
 
     // Tip: give all fields a default value here
     const data = {
-      title: null,
-      slug: null,
-      uid: null,
-      username: null,
-      published: true,
+      title: title,
+      slug: slug,
+      uid: '',
+      username: username,
+      published: false,
       content: "# Hi Guys",
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp(),
